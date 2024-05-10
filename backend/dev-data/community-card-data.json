@@ -1,0 +1,42 @@
+[
+    {
+      "name": "Web Development",
+      "member": 10
+    },
+    {
+      "name": "Machine Learing",
+      "member": 10
+    },
+    {
+      "name": "Block Chain",
+      "member": 10
+    },
+    {
+      "name": "Cyber Security",
+      "member": 10
+    },
+    {
+      "name": "Competetive Programming",
+      "member": 10
+    },
+    {
+      "name": "UX/UI Design",
+      "member": 10
+    },
+    {
+      "name": "Data Science",
+      "member": 10
+    },
+    {
+      "name": "App development",
+      "member": 10
+    },
+    {
+      "name": "Robotics Section",
+      "member": 10
+    },
+    {
+      "name": "Acad",
+      "member": 10
+    }
+  ]

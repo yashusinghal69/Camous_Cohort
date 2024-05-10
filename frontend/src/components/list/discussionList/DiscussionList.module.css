@@ -1,0 +1,53 @@
+.discussionList{
+    margin-bottom:13rem;
+    margin-top: 2rem;
+    display:flex;
+    justify-content: center;
+    width:100%;
+    padding-left: 10rem;
+    padding-right: 10rem;
+
+    list-style: none;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+  }
+
+
+  
+  .discussionList li {
+    box-sizing: border-box;
+    flex:0 0 calc(30% - 20px);
+    color:#ee9999;
+    padding: 10px;
+    margin: 10px;
+    
+  }
+  
+  
+  
+.add {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    width:25%;
+    height:45.5%;
+    color:#ee9999;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px ;
+    border:6px solid #ee9999;
+    
+  }
+  
+  .add h3 {
+    margin: 0;
+    font-size: 3rem;
+    color:#ee9999;
+  }
+
+  
+  
+
+  

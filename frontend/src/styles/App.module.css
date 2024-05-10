@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none !important;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  body {
+    width: 100%;
+    background-color: #0d1016;
+  }
+  
+  .BackgroundImage{
+    background-image: url(../assets/Home/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

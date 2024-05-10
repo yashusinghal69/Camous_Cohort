@@ -1,0 +1,81 @@
+/* COMMUNITY CARDS */
+.name{
+  text-align: center;
+  width:100%;
+  font-family: 'Poppins', sans-serif; 
+  color: white; 
+  font-weight: bolder; 
+  font-size: 3rem; 
+  -webkit-text-stroke: 1px black; 
+  filter: drop-shadow(4px 4px 0 black) ;
+  margin-bottom: 10px; 
+}
+
+.cards_box{
+    background-color: #ffffff;
+    width: 78em;
+    height:35em;
+    border-radius: 40px;
+  }
+ 
+  .community_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 13rem);   
+    grid-column-gap: 4em;  
+    grid-row-gap: 2em;  
+     padding: 2em;
+    justify-content: center;
+  }
+  
+
+  
+  /* COMMUNITY button */
+  
+  .button_community_flex{
+    display: flex;
+    justify-content: center;
+    gap:4em;
+    margin-top: 1em;
+  }
+  
+  .button_community {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+    color: lightcoral;
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+   }
+  
+   .button_community:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+   }
+  
+   .button_community:hover:not(:disabled) {
+    background: #51cf66;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+   }
+  
+   .button_community:disabled {
+    cursor: auto;
+    color: grey;
+   }
+
+
+   @media (max-width: 768px) {
+    .community_grid {
+      grid-template-columns: repeat(2, 8rem);  
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .community_grid {
+      grid-template-columns: 5rem; /* Single column on very small screens */
+    }
+  }

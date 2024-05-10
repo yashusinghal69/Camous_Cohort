@@ -1,0 +1,108 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ 
+.logo{
+  position:absolute;
+  top:1rem;
+  left:2rem;
+  width: 4rem;
+  height: 4rem;
+  z-index: 4;
+}
+label {
+  font-size: 1.2rem;
+  color: #656262;
+}
+
+html,
+body {
+ 
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  
+  background: #ee9999;
+  font-family: "Poppins", sans-serif;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    padding-top:7rem;
+}
+
+.form_container {
+  
+  background-color: #ffffff;
+  padding: 2rem 3rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+  border: 2px solid black;
+  
+}
+
+.form_container > h2 {
+  margin-block: 1rem;
+  padding-block: 0.6rem;
+  color: rgb(0, 0, 0);
+}
+
+.form_container > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.form_container div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.form_container input {
+  border: none;
+  padding: 0.5rem;
+  border: 1px solid rgb(116, 116, 116);
+  border-radius: 0.3rem;
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.form_container input::placeholder {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.form_container button {
+  background-color: #ff9595;
+  color: #fff;
+  border: none;
+  padding: 0.6rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+span a {
+  text-decoration: none;
+  color: #fc8e8e;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+

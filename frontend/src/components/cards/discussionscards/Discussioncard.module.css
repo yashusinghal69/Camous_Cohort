@@ -1,0 +1,20 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(33.33% - 90px); /* Change this line */
+  height: 30vh;
+  background: #ee9999;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ 
+  
+    .card:hover {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+  

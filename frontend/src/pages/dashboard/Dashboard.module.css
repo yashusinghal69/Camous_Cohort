@@ -1,0 +1,120 @@
+.popup {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    }
+    
+    .popup_inner {
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    width: 40%;
+    }
+    
+    .popup_inner h2 {
+    margin-top: 0;
+    }
+    
+    .popup_inner label {
+    display: block;
+    margin-bottom: 10px;
+    }
+    
+    .popup_inner input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    }
+    
+    .popup_inner button[type="submit"],
+    .popup_inner button[type="button"] {
+    background-color: #ee9999;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+    
+    .popup_inner button[type="submit"]:hover,
+    .popup_inner button[type="button"]:hover {
+    background-color: #dc8e8e;
+    }
+    
+    .popup_inner button[type="submit"] {
+    margin-top: 20px;
+    }
+    
+  
+    
+    .popup_inner button[type="submit"]:disabled {
+    background-color: #bfbfbf;
+    color: #ffffff;
+    cursor: not-allowed;
+    }
+    
+    
+.cards {
+     display: flex;
+     flex-direction: column;
+     width: 30vh;
+     height: 30vh;
+     background: #ee9999;
+     color: white;
+     padding: 10px;
+     margin: 10px;
+     border-radius: 8px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     flex: 1 0 30%; /* grow | shrink | basis */
+     max-width: 30%;
+     margin: 1rem;
+     box-sizing: border-box;
+     }
+          
+           
+            
+ .cards:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+     }
+            
+.create{
+    position:fixed;
+    width:  5rem ;
+    height: 5rem;
+    bottom:2rem;
+    right:2rem;
+    color: #ffffff;
+    background: #ee9999;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50rem;
+    border: 4px solid #ee9999;
+    }
+
+    .cardsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width:80%;
+      }
+
+
+
+
